@@ -10,7 +10,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY_URL = 'https://registry.hub.docker.com'
         DOCKER_HUB_USERNAME = 'duongtuan05' // Thay bằng username Docker Hub của bạn
-        DOCKER_IMAGE_NAME   = "${DOCKER_HUB_USERNAME}/VEGETABLE"
+        DOCKER_IMAGE_NAME   = "${DOCKER_HUB_USERNAME}/vegetable"
         // ID của thông tin đăng nhập đã lưu trong Jenkins
         DOCKER_HUB_CREDENTIALS_ID = '2972005'
     }
